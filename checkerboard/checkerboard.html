@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Checkerboard Background</title>
+	<link rel='stylesheet' href='style.css'>
+	<script src='script.js' defer></script>
+</head>
+<body>
+	<div class='wrapper'>
+		<div class='to_index_block'>
+			<a href='../index.html'>CSS Backgrounds</a>
+		</div>
+		<div class='main_heading'>
+			<h1>
+				Checkerboard Background
+			</h1>
+			<h2>
+				(no images needed, any checker size, any colors)
+			</h2>
+		</div>
+		<h3 class='block_heading'>Swatch:</h3>
+		<div class='swatch'>
+			<p class='black_text'>Bold black text</p>
+			<p class='white_text'>Bold white text</p>
+		</div>
+		<div class='whole_page_show'>
+			<span class='input_label'>
+				Show on whole page:
+			</span>
+			<input type='checkbox' id='whole_page'>
+		</div>
+		<h3 class='block_heading'>Checker Size:</h3>
+		<div class='size_block'>
+			<span class='input_label'>
+				Current checker size:
+			</span>
+			<input type='text' id='checker_size' value=''>
+			<span>px</span>
+			<input type='range' id='checker_range' min='1' max='1000'>
+		</div>
+		<h3 class='block_heading'>First Color:</h3>
+		<input type='color' id='first_color' value='#dedede'>
+		<h3 class='block_heading'>Second Color:</h3>
+		<input type='color' id='second_color' value='#ffffff'>
+		<h3 class='block_heading'>CSS code:</h3>
+		<div id='css_code_block'>
+			<pre id='css_code'></pre>
+			<div class='copy_block'>
+				<span>Copy</span>
+			</div>
+		</div>
+		<div class='to_index_block to_source_code'>
+			<a href='https://github.com/webcoding123/css-backgrounds'>Source code</a>
+		</div>
+		<br>
+	</div>
+</body>
+</html>

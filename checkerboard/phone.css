@@ -1,0 +1,9 @@
+h1 {
+	font-size: 2em;
+}
+.swatch, #css_code_block {
+	width: 100%;
+}
+#checker_range {
+	margin-top: 20px;
+}

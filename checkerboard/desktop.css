@@ -1,0 +1,96 @@
+html {
+	height: 100%;
+	font-family: sans-serif;
+}
+body {
+	padding: 0 10px;
+	background-color: #eaeaea;
+}
+.to_index_block {
+	margin-top: 4px;
+}
+.to_index_block a {
+	color: darkcyan;
+	text-decoration: none;
+}
+h1 {
+	font-size: 3em;
+	color: #668c19;
+	margin-top: 16px;
+}
+h2 {
+	font-size: 1.6em;
+	color: #668c19;
+	font-style: italic;
+}
+.block_heading {
+	font-size: 1.4em;
+	color: darkcyan;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.swatch {
+	width: 400px;
+	height: 200px;
+	border-radius: 8px;
+	border: 2px solid tomato;
+	padding: 20px;
+}
+.black_text, .white_text {
+	font-size: 1.2em;
+	padding-bottom: 12px;
+	font-weight: bold;
+}
+.black_text {
+	color: black;
+}
+.white_text {
+	color: white;
+}
+.whole_page_show {
+	margin-top: 10px;
+}
+#whole_page {
+	position: relative;
+	bottom: -2px;
+	
+}
+
+/* Checker Size */
+
+#checker_size {
+	margin-right: 4px;
+	width: 120px;
+	font-size: 1.5em;
+}
+#checker_range {
+	margin-left: 20px;
+}
+
+/* CSS Code */
+
+#css_code_block {
+	width: 400px;
+	border-radius: 8px;
+	border: 2px solid tomato;
+	padding: 20px;
+}
+.copy_block {
+	text-align: center;
+	padding-top: 8px;
+}
+.copy_block span {
+	background-color: cyan;
+	border: 2px solid darkcyan;
+	border-radius: 6px;
+	padding: 0 6px;
+	cursor: pointer;
+	display: inline-block;
+}
+.copy_block span:active {
+	transform: scale(0.8);
+}
+.to_source_code {
+	margin-top: 30px;
+	margin-bottom: 100px;
+}
