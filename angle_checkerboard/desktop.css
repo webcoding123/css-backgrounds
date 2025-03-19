@@ -1,0 +1,93 @@
+html {
+	height: 100%;
+	font-family: sans-serif;
+}
+body {
+	padding: 0;
+}
+.wrapper {
+	padding: 0 10px;
+}
+.to_index_block {
+	margin-top: 4px;
+}
+.to_index_block a {
+	color: darkcyan;
+	text-decoration: none;
+}
+h1 {
+	font-size: 3em;
+	color: #668c19;
+	margin-top: 16px;
+}
+h2 {
+	font-size: 1.6em;
+	color: #668c19;
+	font-style: italic;
+}
+.block_heading {
+	font-size: 1.4em;
+	color: darkcyan;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+/* Checker Size */
+
+#checker_size, #angle1, #angle2 {
+	margin-right: 4px;
+	width: 120px;
+	font-size: 1.5em;
+	margin-left: 8px;
+}
+#checker_range, #angle1_range, #angle2_range {
+	margin-left: 20px;
+}
+
+/* Angles */
+
+.angles_padlock_block {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 200px;
+}
+#angles_padlock {
+	font-size: 2em;
+	cursor: pointer;
+}
+
+#blending_mode_select {
+	font-size: 20px;
+}
+
+/* CSS Code */
+
+#css_code_block {
+	width: 400px;
+	border-radius: 8px;
+	border: 2px solid tomato;
+	padding: 20px;
+	background-color: wheat;
+}
+#css_code {
+	white-space: pre-wrap;
+}
+.copy_block {
+	text-align: center;
+	padding-top: 8px;
+}
+.copy_block span {
+	background-color: cyan;
+	border: 2px solid darkcyan;
+	border-radius: 6px;
+	padding: 0 6px;
+	cursor: pointer;
+	display: inline-block;
+}
+.copy_block span:active {
+	transform: scale(0.8);
+}
+.to_source_code {
+	margin-top: 30px;
+	margin-bottom: 100px;
+}

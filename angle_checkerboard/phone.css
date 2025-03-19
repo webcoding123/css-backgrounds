@@ -1,0 +1,12 @@
+h1 {
+	font-size: 2em;
+}
+.swatch, #css_code_block {
+	width: 100%;
+}
+#checker_range, #angle1_range, #angle2_range {
+	margin-top: 20px;
+}
+.angles_padlock_block {
+	padding-left: 100px;
+}

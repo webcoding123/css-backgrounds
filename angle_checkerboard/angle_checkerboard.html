@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Angle Checkerboard Background</title>
+	<link rel='stylesheet' href='style.css'>
+	<script src='script.js' defer></script>
+</head>
+<body>
+	<div class='wrapper'>
+		<div class='to_index_block'>
+			<a href='../index.html'>CSS Backgrounds</a>
+		</div>
+		<div class='main_heading'>
+			<h1>
+				Angle Checkerboard Background
+			</h1>
+			<h2>
+				(no images needed, any checker size, any angle, limited colors)
+			</h2>
+		</div>
+		<h3 class='block_heading'>Checker Size:</h3>
+		<div class='size_block'>
+			<span class='input_label'>
+				Current checker size:
+			</span>
+			<input type='text' id='checker_size' value=''>
+			<span>px</span>
+			<input type='range' id='checker_range' min='1' max='1000'>
+		</div>
+		<h3 class='block_heading'>Angles:</h3>
+		<div class='angles_block'>
+			<div class='angle1_block'>
+				<span class='input_label'>
+					Angle 1:
+				</span>
+				<input type='text' id='angle1' value=''>
+				<span>deg</span>
+				<input type='range' id='angle1_range' min='0' max='360'>
+			</div>
+			<div class='angles_padlock_block'>
+				<span id='angles_padlock'>🔒</span>
+			</div>
+			<div class='angle1_block'>
+				<span class='input_label'>
+					Angle 2:
+				</span>
+				<input type='text' id='angle2' value=''>
+				<span>deg</span>
+				<input type='range' id='angle2_range' min='0' max='360'>
+			</div>
+		</div>
+		<h3 class='block_heading'>Html element Color:</h3>
+		<input type='color' id='html_color' value='#ffffff'>
+		<h3 class='block_heading'>Body element Color:</h3>
+		<input type='color' id='body_color' value='#dedede'>
+		<h3 class='block_heading'>Blending Mode:</h3>
+		<select id='blending_mode_select'>
+			<option>Normal</option>
+			<option>Multiply</option>
+			<option>Screen</option>
+			<option>Overlay</option>
+			<option>Darken</option>
+			<option>Lighten</option>
+			<option>Color-Dodge</option>
+			<option>Color-Burn</option>
+			<option>Hard-Light</option>
+			<option>Soft-Light</option>
+			<option>Difference</option>
+			<option>Exclusion</option>
+			<option>Hue</option>
+			<option>Saturation</option>
+			<option>Color</option>
+			<option>Luminosity</option>
+		</select>
+		<h3 class='block_heading'>CSS code:</h3>
+		<div id='css_code_block'>
+			<pre id='css_code'></pre>
+			<div class='copy_block'>
+				<span>Copy</span>
+			</div>
+		</div>
+		<div class='to_index_block to_source_code'>
+			<a href='https://github.com/webcoding123/css-backgrounds'>Source code</a>
+		</div>
+		<br>
+	</div>
+</body>
+</html>
